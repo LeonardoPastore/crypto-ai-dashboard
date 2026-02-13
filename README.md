@@ -1,16 +1,73 @@
-# React + Vite
+# 🚀 Crypto AI Dashboard
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Um dashboard de análise de criptomoedas  
+com recomendações inteligentes, alertas automáticos e simulações de investimento.
 
-Currently, two official plugins are available:
+🔗 Demo: (adicione o link do seu deploy aqui)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## 🧠 Visão Geral
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Esse projeto consome dados da API pública do CoinGecko para:
 
-## Expanding the ESLint configuration
+- 📊 Identificar oportunidades de investimento
+- 🛡️ Classificar criptomoedas por score de risco
+- 🔔 Gerar alertas automáticos de mercado
+- 💰 Simular compras com um orçamento definido
+- 📈 Mapear oportunidades com gráficos
+- 🔍 Buscar qualquer cripto existente
+- 🧾 Registrar histórico de análises da IA
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+> ❗ **Aviso**: Este projeto **não constitui recomendação financeira.**
+
+---
+
+## 🧪 Tecnologias Usadas
+
+- React + Vite
+- TailwindCSS
+- Recharts
+- CoinGecko API (gratuita)
+- LocalStorage para persistência de alertas e histórico
+
+---
+
+## 🚀 Funcionalidades
+
+### 📍 Dashboard
+
+- Exibe lista de criptomoedas com:
+  - Preço atualizado
+  - Alteração (%)
+  - Score calculado pela IA
+  - Recomendações (Comprar / Manter / Evitar)
+
+### 🚨 Alertas
+
+- Sistema automático que registra alertas no navegador e no painel
+- Alertas persistentes via LocalStorage
+
+### 🔍 Busca
+
+- Campo para buscar qualquer cripto existente na CoinGecko
+- Adiciona ao dashboard para análise rápida
+
+### 💡 Histórico da IA
+
+- Armazena as análises feitas pela IA
+- Exibe em um painel com histórico visual
+
+### 🛡️ Criptos Seguras
+
+- Seção especial com criptos de perfil mais “seguro” segundo regras IA
+- Baseado em volatilidade, volume e score
+
+---
+
+## 📦 Como Rodar o Projeto
+
+Clone o repositório:
+
+```bash
+git clone https://github.com/LeonardoPastore/crypto-ai-dashboard.git
